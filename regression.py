@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 data={
     "study_hours":[8,10,9,7,6,5,10,11,12,14],
     "Attendance":[70,45,80,67,80,90,85,84,78,83],
-    "Result":["pass","Fail","pass","Fail","Fail","pass","pass","pass","pass","Fail"]}
+    "Result":["pass","Fail","pass","Fail","Fail","fail","pass","pass","pass","Fail"]}
 for i in range(len(data["study_hours"])):
  print(f"student{i+1}:study hours:{data['study_hours'][i]},Attendance:{data['Attendance'][i]},Result:{data['Result'][i]}")  
 df=pd.DataFrame(data)
