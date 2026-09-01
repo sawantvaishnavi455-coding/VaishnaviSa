@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 data={
-    "study_hours":[8,10,9,7,6,5,10,11,12,14],
+    "study_hours":[7,10,9,7,6,5,10,11,12,14],
     "Attendance":[70,45,80,67,80,90,85,84,78,83],
     "Result":["pass","Fail","pass","Fail","Fail","pass","pass","pass","pass","Fail"]}
 for i in range(len(data["study_hours"])):
